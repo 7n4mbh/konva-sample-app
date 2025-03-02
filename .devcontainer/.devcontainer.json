@@ -1,0 +1,10 @@
+{
+  "name": "Konva Sample App",
+  "image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:0-16",
+  "postCreateCommand": "npm install",
+  "forwardPorts": [3000],
+  "workspaceFolder": "/workspaces/konva-sample-app",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  }
+}
