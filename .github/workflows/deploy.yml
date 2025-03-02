@@ -12,8 +12,6 @@ jobs:
       # 1. リポジトリをチェックアウト
       - name: Check out code
         uses: actions/checkout@v3
-        with:
-          path: my-app
 
       # 2. Node.jsのバージョンをセットアップ
       - name: Set up Node
